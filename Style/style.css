@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  padding: 72px 80px 150px 80px;
+  background: #111111;
+}
+
+section header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+section header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+  font-size: 20px;
+}
+
+section header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section header nav a:last-child {
+  color: #FF3998;
+}
+
+section .container-1 {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+section .container-1 p:first-child {
+  color: #FF3998;
+}
+
+section .container-1 h1 {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  margin: 24px 0 32px;
+}
+
+section .container-1 P:last-child {
+  line-height: 150%;
+  color: #CCCCCC;
+}
+
+section .container-1 button {
+  padding: 22px 56px;
+  border-radius: 35px;
+  background-color: black;
+  border: 3px solid #f46931fc;
+  margin-top: 41px;
+  font-size: 20px;
+  color: white;
+}
+
+section .container-1 .kukla {
+  top: 15%;
+  position: absolute;
+  right: 5%;
+}
+
+section .container-2 {
+  width: 100%;
+}
+
+section .container-2 .cont2-box {
+  height: 350px;
+  background: linear-gradient(117deg, #d03ba3 10%, #fa4623 35%, #fd3a1e 50%, #fd3f20 52%, #fcb045 100%);
+  border-radius: 20px;
+  padding: 56px 0 56px 64px;
+  position: relative;
+  color: black;
+  margin-bottom: 127px;
+}
+
+section .container-2 .cont2-box h2 {
+  font-size: 40px;
+  margin: 50px 0 24px;
+}
+
+section .container-2 .cont2-box p {
+  font-size: 20px;
+}
+
+section .container-2 .cont2-box .graphs {
+  position: absolute;
+  top: -60px;
+  right: 110px;
+}
+
+section .container-2 .press-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999999;
+  font-size: 32px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 127px;
+}
+
+section .container-2 .press-box div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .container-3 {
+  width: 100%;
+  color: white;
+}
+
+section .container-3 h3 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+section .container-3 p {
+  color: #999999;
+  margin-bottom: 58px;
+}
+
+section .container-3 .showcase {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+section .container-3 .showcase .case {
+  width: 290px;
+  height: 400px;
+  display: block;
+  background-color: black;
+  border-radius: 20px;
+}
+
+section .container-3 .showcase .case .case-texts {
+  width: 100%;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container-3 .showcase .case .case-texts span {
+  display: block;
+  margin-bottom: 12px;
+}
+
+section .container-3 .showcase .case .case-texts .span-orange {
+  color: #FF8139;
+}
+
+section .container-3 .showcase .case .case-texts .span-green {
+  color: #777777;
+}
+
+section .container-4 {
+  width: 100%;
+  height: 600px;
+  background: #fd8646;
+  padding: 138px 80px;
+  border-radius: 16px;
+  position: relative;
+  color: black;
+  margin-bottom: 120px;
+}
+
+section .container-4 h3 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+section .container-4 p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+section .container-4 span {
+  font-size: 20px;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+section .container-4 .cont-4image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section .container-5 {
+  width: 100%;
+  height: 600px;
+  border-radius: 16px;
+  padding: 138px 120px 138px 705px;
+  background: #39FFA0;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+section .container-5 h3 {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+section .container-5 p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+section .container-5 span {
+  font-size: 20px;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+section .container-5 .cont-5image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section .container-6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 122px;
+}
+
+section .container-6 .cont6-box1, section .container-6 .cont6-box2 {
+  width: 620px;
+  height: 614px;
+  border-radius: 20px;
+  background: #555555;
+  padding: 80px;
+  color: white;
+}
+
+section .container-6 .cont6-box1 h3, section .container-6 .cont6-box2 h3 {
+  font-size: 40px;
+  margin: 32px 0;
+}
+
+section .container-6 .cont6-box1 p, section .container-6 .cont6-box2 p {
+  font-size: 20px;
+  color: #CCCCCC;
+}
+
+section .container-7 {
+  width: 100%;
+  height: 552px;
+  padding: 120px 0;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  color: white;
+  margin-bottom: 122px;
+  position: relative;
+}
+
+section .container-7 p:first-child {
+  font-size: 19px;
+  color: #FF3998;
+}
+
+section .container-7 h2 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 116px;
+  margin: 24px 0 24px;
+}
+
+section .container-7 P:last-child {
+  line-height: 30px;
+  color: #CCCCCC;
+}
+
+section .container-7 button {
+  padding: 22px 56px;
+  border-radius: 35px;
+  background-color: black;
+  border: 3px solid #f46931fc;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+section .container-7 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section footer {
+  width: 100%;
+  height: 100%;
+}
+
+section footer .fot-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #CCCCCC;
+  margin-bottom: 123px;
+}
+
+section footer .fot-top div:first-child p {
+  margin: 32px 0;
+}
+
+section footer .fot-top div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+
+section footer .fot-top div:last-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 28px;
+}
+
+section footer .fot-top div:last-child div p {
+  margin: 0;
+  font-size: 20px;
+  color: #CCCCCC;
+}
+
+section footer .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #CCCCCC;
+}
+/*# sourceMappingURL=style.css.map */
